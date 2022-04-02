@@ -112,7 +112,7 @@ local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 --Properties:
 
 KumaAdminV6.Name = "KumaAdminV6"
-KumaAdminV6.Parent = game.COreGui
+KumaAdminV6.Parent = game.CoreGui
 KumaAdminV6.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
