@@ -253,8 +253,6 @@ TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 
--- game.Workspce
-
 SpeedC.Name = "SpeedC"
 SpeedC.Parent = SettingsMain
 SpeedC.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -891,7 +889,7 @@ UIAspectRatioConstraint_11.Parent = Open
 
 -- Scripts:
 
-local function LDHXKOQ_fake_script() -- SettingsOpener.OpenScript 
+local function GROS_fake_script() -- SettingsOpener.OpenScript 
 	local script = Instance.new('LocalScript', SettingsOpener)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -900,8 +898,8 @@ local function LDHXKOQ_fake_script() -- SettingsOpener.OpenScript
 		script.Parent.Parent.Parent.Parent.SettingsMain.Visible = true
 	end)
 end
-coroutine.wrap(LDHXKOQ_fake_script)()
-local function OPGNV_fake_script() -- Disable.CDisable 
+coroutine.wrap(GROS_fake_script)()
+local function PYNDO_fake_script() -- Disable.CDisable 
 	local script = Instance.new('LocalScript', Disable)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -926,8 +924,8 @@ local function OPGNV_fake_script() -- Disable.CDisable
 		script.Parent.Parent.Enable.Visible = true
 	end)
 end
-coroutine.wrap(OPGNV_fake_script)()
-local function UWHDIXE_fake_script() -- Enable.CEnable 
+coroutine.wrap(PYNDO_fake_script)()
+local function PQNEBO_fake_script() -- Enable.CEnable 
 	local script = Instance.new('LocalScript', Enable)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -952,8 +950,8 @@ local function UWHDIXE_fake_script() -- Enable.CEnable
 		script.Parent.Parent.Disable.Visible = true
 	end)
 end
-coroutine.wrap(UWHDIXE_fake_script)()
-local function QVUAT_fake_script() -- SpeedC.LocalScript 
+coroutine.wrap(PQNEBO_fake_script)()
+local function UWQAR_fake_script() -- SpeedC.LocalScript 
 	local script = Instance.new('LocalScript', SpeedC)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -964,8 +962,8 @@ local function QVUAT_fake_script() -- SpeedC.LocalScript
 		print("Walking speed has been changed to: "..script.Parent.input.Text.."!")
 	end)
 end
-coroutine.wrap(QVUAT_fake_script)()
-local function AKOV_fake_script() -- CLose.LocalScript 
+coroutine.wrap(UWQAR_fake_script)()
+local function JGYXX_fake_script() -- CLose.LocalScript 
 	local script = Instance.new('LocalScript', CLose)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -974,8 +972,8 @@ local function AKOV_fake_script() -- CLose.LocalScript
 		script.Parent.Parent.Parent.Parent.Movement:TweenPosition(UDim2.new(0.017, 0,0.282, 0),"Out","Quad")
 	end)
 end
-coroutine.wrap(AKOV_fake_script)()
-local function OIVEUM_fake_script() -- info.HoverEffect 
+coroutine.wrap(JGYXX_fake_script)()
+local function LPPI_fake_script() -- info.HoverEffect 
 	local script = Instance.new('LocalScript', info)
 
 	local HoverEffect = script.Parent
@@ -988,8 +986,8 @@ local function OIVEUM_fake_script() -- info.HoverEffect
 		script.Parent.mainframe.Visible = false
 	end)
 end
-coroutine.wrap(OIVEUM_fake_script)()
-local function YPCDYN_fake_script() -- SettingsOpener_2.OpenScript 
+coroutine.wrap(LPPI_fake_script)()
+local function XCKM_fake_script() -- SettingsOpener_2.OpenScript 
 	local script = Instance.new('LocalScript', SettingsOpener_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -998,8 +996,8 @@ local function YPCDYN_fake_script() -- SettingsOpener_2.OpenScript
 		script.Parent.Parent.Parent.Parent.SettingsMain.Visible = true
 	end)
 end
-coroutine.wrap(YPCDYN_fake_script)()
-local function WRTMB_fake_script() -- SpeedC_2.LocalScript 
+coroutine.wrap(XCKM_fake_script)()
+local function QJPMMY_fake_script() -- SpeedC_2.LocalScript 
 	local script = Instance.new('LocalScript', SpeedC_2)
 
 	while true do
@@ -1019,8 +1017,8 @@ local function WRTMB_fake_script() -- SpeedC_2.LocalScript
 	end
 	
 end
-coroutine.wrap(WRTMB_fake_script)()
-local function NWXSKXN_fake_script() -- CLose_2.LocalScript 
+coroutine.wrap(QJPMMY_fake_script)()
+local function HYJIFIC_fake_script() -- CLose_2.LocalScript 
 	local script = Instance.new('LocalScript', CLose_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1029,8 +1027,8 @@ local function NWXSKXN_fake_script() -- CLose_2.LocalScript
 		script.Parent.Parent.Parent.Parent.BlockPlayers:TweenPosition(UDim2.new(0.234, 0,0.282, 0),"Out","Quad")
 	end)
 end
-coroutine.wrap(NWXSKXN_fake_script)()
-local function CYUOY_fake_script() -- info_2.HoverEffect 
+coroutine.wrap(HYJIFIC_fake_script)()
+local function RASAJSI_fake_script() -- info_2.HoverEffect 
 	local script = Instance.new('LocalScript', info_2)
 
 	local HoverEffect = script.Parent
@@ -1043,8 +1041,8 @@ local function CYUOY_fake_script() -- info_2.HoverEffect
 		script.Parent.mainframe.Visible = false
 	end)
 end
-coroutine.wrap(CYUOY_fake_script)()
-local function BBQHACG_fake_script() -- TextLabel_9.Script 
+coroutine.wrap(RASAJSI_fake_script)()
+local function SXHWDR_fake_script() -- TextLabel_9.Script 
 	local script = Instance.new('LocalScript', TextLabel_9)
 
 	while true do
@@ -1056,8 +1054,8 @@ local function BBQHACG_fake_script() -- TextLabel_9.Script
 		
 	end
 end
-coroutine.wrap(BBQHACG_fake_script)()
-local function HRPJCQ_fake_script() -- info_4.HoverEffect 
+coroutine.wrap(SXHWDR_fake_script)()
+local function GJESZ_fake_script() -- info_4.HoverEffect 
 	local script = Instance.new('LocalScript', info_4)
 
 	local HoverEffect = script.Parent
@@ -1070,8 +1068,8 @@ local function HRPJCQ_fake_script() -- info_4.HoverEffect
 		script.Parent.mainframe.Visible = false
 	end)
 end
-coroutine.wrap(HRPJCQ_fake_script)()
-local function YBFFFN_fake_script() -- TextLabel_12.Script 
+coroutine.wrap(GJESZ_fake_script)()
+local function AZUHXQ_fake_script() -- TextLabel_12.Script 
 	local script = Instance.new('LocalScript', TextLabel_12)
 
 	while true do
@@ -1083,8 +1081,8 @@ local function YBFFFN_fake_script() -- TextLabel_12.Script
 		
 	end
 end
-coroutine.wrap(YBFFFN_fake_script)()
-local function RRYZ_fake_script() -- TextLabel_13.Script 
+coroutine.wrap(AZUHXQ_fake_script)()
+local function YQQAGBN_fake_script() -- TextLabel_13.Script 
 	local script = Instance.new('LocalScript', TextLabel_13)
 
 	while true do
@@ -1095,8 +1093,8 @@ local function RRYZ_fake_script() -- TextLabel_13.Script
 		
 	end
 end
-coroutine.wrap(RRYZ_fake_script)()
-local function TWWW_fake_script() -- TextLabel_14.Script 
+coroutine.wrap(YQQAGBN_fake_script)()
+local function GMAO_fake_script() -- TextLabel_14.Script 
 	local script = Instance.new('LocalScript', TextLabel_14)
 
 	while true do
@@ -1107,8 +1105,8 @@ local function TWWW_fake_script() -- TextLabel_14.Script
 		
 	end
 end
-coroutine.wrap(TWWW_fake_script)()
-local function RTRMBVG_fake_script() -- TextLabel_15.Script 
+coroutine.wrap(GMAO_fake_script)()
+local function ZICHG_fake_script() -- TextLabel_15.Script 
 	local script = Instance.new('LocalScript', TextLabel_15)
 
 	while true do
@@ -1119,8 +1117,8 @@ local function RTRMBVG_fake_script() -- TextLabel_15.Script
 		
 	end
 end
-coroutine.wrap(RTRMBVG_fake_script)()
-local function JVWU_fake_script() -- TextLabel_16.Script 
+coroutine.wrap(ZICHG_fake_script)()
+local function CPBZGHW_fake_script() -- TextLabel_16.Script 
 	local script = Instance.new('LocalScript', TextLabel_16)
 
 	while true do
@@ -1132,8 +1130,8 @@ local function JVWU_fake_script() -- TextLabel_16.Script
 		
 	end
 end
-coroutine.wrap(JVWU_fake_script)()
-local function NTKGCD_fake_script() -- TextLabel_17.Script 
+coroutine.wrap(CPBZGHW_fake_script)()
+local function KWTZHZQ_fake_script() -- TextLabel_17.Script 
 	local script = Instance.new('LocalScript', TextLabel_17)
 
 	while true do
@@ -1144,32 +1142,32 @@ local function NTKGCD_fake_script() -- TextLabel_17.Script
 		
 	end
 end
-coroutine.wrap(NTKGCD_fake_script)()
-local function ZRPGPE_fake_script() -- Copyright.LocalScript 
+coroutine.wrap(KWTZHZQ_fake_script)()
+local function YYOWOCG_fake_script() -- Copyright.LocalScript 
 	local script = Instance.new('LocalScript', Copyright)
 
 	script.Parent.Text ="Copyright © Kuma Admin 2022"
 end
-coroutine.wrap(ZRPGPE_fake_script)()
-local function OZGWVPE_fake_script() -- WereHappy.LocalScript 
+coroutine.wrap(YYOWOCG_fake_script)()
+local function TTKM_fake_script() -- WereHappy.LocalScript 
 	local script = Instance.new('LocalScript', WereHappy)
 
 	script.Parent.Text ="We're happy to help in all times!"
 end
-coroutine.wrap(OZGWVPE_fake_script)()
-local function SVWP_fake_script() -- Version.LocalScript 
+coroutine.wrap(TTKM_fake_script)()
+local function LEOS_fake_script() -- Version.LocalScript 
 	local script = Instance.new('LocalScript', Version)
 
 	script.Parent.Text ="Version ⋯ 6-04-1"
 end
-coroutine.wrap(SVWP_fake_script)()
-local function MBMBR_fake_script() -- Object.LocalScript 
+coroutine.wrap(LEOS_fake_script)()
+local function HUKORA_fake_script() -- Object.LocalScript 
 	local script = Instance.new('LocalScript', Object)
 
 	script.Parent.Text ="Object ⋯ ER20 40UT 100P"
 end
-coroutine.wrap(MBMBR_fake_script)()
-local function XDOHW_fake_script() -- Close.Effect 
+coroutine.wrap(HUKORA_fake_script)()
+local function IUSLE_fake_script() -- Close.Effect 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1225,16 +1223,16 @@ local function XDOHW_fake_script() -- Close.Effect
 		wait(.01)
 	end)
 end
-coroutine.wrap(XDOHW_fake_script)()
-local function JGXJ_fake_script() -- Close.Function 
+coroutine.wrap(IUSLE_fake_script)()
+local function EUSB_fake_script() -- Close.Function 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent:TweenPosition(UDim2.new(0.005, 0,-2, 0),"Out","Quad")
 	end)
 end
-coroutine.wrap(JGXJ_fake_script)()
-local function QWYL_fake_script() -- Close.Effect3 
+coroutine.wrap(EUSB_fake_script)()
+local function JZBIQBF_fake_script() -- Close.Effect3 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1259,8 +1257,8 @@ local function QWYL_fake_script() -- Close.Effect3
 		game.Workspace.CurrentCamera.FieldOfView = 70
 	end)
 end
-coroutine.wrap(QWYL_fake_script)()
-local function LKXW_fake_script() -- Close.Effect2 
+coroutine.wrap(JZBIQBF_fake_script)()
+local function BWXJ_fake_script() -- Close.Effect2 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1271,20 +1269,14 @@ local function LKXW_fake_script() -- Close.Effect2
 		script.Parent.TextTransparency = 0.8
 	end)
 end
-coroutine.wrap(LKXW_fake_script)()
-local function YLVBW_fake_script() -- Main.PositionHandler 
+coroutine.wrap(BWXJ_fake_script)()
+local function DRODXHQ_fake_script() -- Main.PositionHandler 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.Position = UDim2.new(0.005, 0,-2, 0)
 end
-coroutine.wrap(YLVBW_fake_script)()
-local function FXRB_fake_script() -- KumaAdminV6.Version 
-	local script = Instance.new('LocalScript', KumaAdminV6)
-
-	script.Parent.Version.Name ="V_6-04-1"
-end
-coroutine.wrap(FXRB_fake_script)()
-local function ROZSYS_fake_script() -- Commands.Main 
+coroutine.wrap(DRODXHQ_fake_script)()
+local function CPKXT_fake_script() -- Commands.Main 
 	local script = Instance.new('Script', Commands)
 
 	game.Players.PlayerAdded:Connect(function(plr)
@@ -1348,8 +1340,8 @@ local function ROZSYS_fake_script() -- Commands.Main
 		end)
 	end)
 end
-coroutine.wrap(ROZSYS_fake_script)()
-local function WWYLMQ_fake_script() -- KumaAdminV6.CommandsPrint 
+coroutine.wrap(CPKXT_fake_script)()
+local function ANVBVVW_fake_script() -- KumaAdminV6.CommandsPrint 
 	local script = Instance.new('LocalScript', KumaAdminV6)
 
 	if script.Parent then
@@ -1375,8 +1367,8 @@ local function WWYLMQ_fake_script() -- KumaAdminV6.CommandsPrint
 		print("----------------------------")
 	end
 end
-coroutine.wrap(WWYLMQ_fake_script)()
-local function ZBZEVW_fake_script() -- KumaAdminV6.Clone 
+coroutine.wrap(ANVBVVW_fake_script)()
+local function VNQGXOG_fake_script() -- KumaAdminV6.Clone 
 	local script = Instance.new('LocalScript', KumaAdminV6)
 
 	wait(2)
@@ -1385,8 +1377,8 @@ local function ZBZEVW_fake_script() -- KumaAdminV6.Clone
 	
 	cloneCommands.Parent = game.ServerScriptService
 end
-coroutine.wrap(ZBZEVW_fake_script)()
-local function XPAJEV_fake_script() -- Open.Effect 
+coroutine.wrap(VNQGXOG_fake_script)()
+local function VGUCB_fake_script() -- Open.Effect 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1397,8 +1389,8 @@ local function XPAJEV_fake_script() -- Open.Effect
 		script.Parent.ImageTransparency = 0.8
 	end)
 end
-coroutine.wrap(XPAJEV_fake_script)()
-local function UKBTIT_fake_script() -- Open.Effects2 
+coroutine.wrap(VGUCB_fake_script)()
+local function FYUIUL_fake_script() -- Open.Effects2 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1453,16 +1445,16 @@ local function UKBTIT_fake_script() -- Open.Effects2
 		game.Lighting.KumaBlur.Size = 25
 	end)
 end
-coroutine.wrap(UKBTIT_fake_script)()
-local function IDXVPT_fake_script() -- Open.Functions 
+coroutine.wrap(FYUIUL_fake_script)()
+local function PFGJLF_fake_script() -- Open.Functions 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Main:TweenPosition(UDim2.new(0,0,0,0),"Out","Quad")
 	end)
 end
-coroutine.wrap(IDXVPT_fake_script)()
-local function EYIWIZK_fake_script() -- Open.Effects3 
+coroutine.wrap(PFGJLF_fake_script)()
+local function HGUTBMR_fake_script() -- Open.Effects3 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1487,8 +1479,8 @@ local function EYIWIZK_fake_script() -- Open.Effects3
 		game.Workspace.CurrentCamera.FieldOfView = 60
 	end)
 end
-coroutine.wrap(EYIWIZK_fake_script)()
-local function ZVOPCDS_fake_script() -- KumaAdminV6.Blur 
+coroutine.wrap(HGUTBMR_fake_script)()
+local function THQOJS_fake_script() -- KumaAdminV6.Blur 
 	local script = Instance.new('LocalScript', KumaAdminV6)
 
 	local newBlur = Instance.new("BlurEffect")
@@ -1497,4 +1489,4 @@ local function ZVOPCDS_fake_script() -- KumaAdminV6.Blur
 	newBlur.Size = 0
 	newBlur.Name ="KumaBlur"
 end
-coroutine.wrap(ZVOPCDS_fake_script)()
+coroutine.wrap(THQOJS_fake_script)()
